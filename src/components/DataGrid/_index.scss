@@ -1,0 +1,28 @@
+.x-data-grid {
+  .table-responsive {
+    &, > .table {
+      margin-bottom: 0;
+    }
+  }
+  > .panel-footer {
+    text-align: center;
+    > .pagination {
+      margin: 0;
+    }
+  }
+}
+
+.x-header-cell {
+  white-space: nowrap;
+  cursor: pointer;
+  > .glyphicon {
+    margin-left: .5em;
+  }
+}
+
+.x-grid-toolbar {
+  display: flex;
+  > select {
+    margin-left: .5em;
+  }
+}

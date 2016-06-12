@@ -1,0 +1,11 @@
+@import "bootswatch/paper/variables";
+@import "bootstrap";
+@import "bootstrap/theme";
+@import "bootswatch/paper/bootswatch";
+@import "DataGrid";
+@import "Editor";
+@import "GoogleMap";
+
+select:invalid {
+  color: $input-color-placeholder;
+}
